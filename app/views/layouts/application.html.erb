@@ -13,7 +13,7 @@
     <%= render 'layouts/navbar' %>
     <div class="container">
       <% flash.each do |name, msg| %>
-        <%= content_tag :div, msg, class: [:alert, alert_for(name)] %>
+        <%= content_tag :div, msg, class: [:alert, alert_for(name), 'text-center'] %>
       <% end %>
       <%= yield %>
     </div>
