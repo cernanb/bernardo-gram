@@ -11,7 +11,7 @@ class CommentsController < ApplicationController
         f.js
       end
     else
-      flash[:alert] = "Check the comment form, something went horribly wrong."
+      flash[:alert] = "Check the comment form please, something went horribly wrong."
       render root_path
     end
   end
