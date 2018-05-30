@@ -17,6 +17,7 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'devise'
+gem 'kaminari'
 
 
 group :development, :test do
