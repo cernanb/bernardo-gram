@@ -1,5 +1,5 @@
 $(document).on('turbolinks:load', function() {
-  $('#posts').on('click', '.more-comments', function() {
+  $('body').on('click', '.more-comments', function() {
     console.log($(this))
     $(this).on('ajax:success', function(event) {
       var postId = $(this).data('post-id')
